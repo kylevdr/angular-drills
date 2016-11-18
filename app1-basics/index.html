@@ -1,5 +1,12 @@
-<html>
-	<body>
+<html ng-app="app1">
+	<body ng-controller="controller">
+
+		<!--<input type="text" ng-model="inputText" placeholder="Write text">-->
+
+		<textarea ng-model="inputText" placeholder="Write text" rows="10" columns="10"></textarea>
+		<br>
+		Your Text:
+		{{inputText}}
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
 		<script src="app.js"></script>

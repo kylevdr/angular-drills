@@ -1,6 +1,11 @@
-<html ng-app="apiApp">
-	<body>
-		
+<html ng-app="app4">
+	<body ng-controller="app4Controller">
+
+		<div ng-repeat="mon in pokemon">
+			<p>{{mon.name}}</p>
+		</div>
+
+
 				<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
